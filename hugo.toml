@@ -1,0 +1,36 @@
+baseURL = 'https://derekzha.ng/'
+languageCode = 'en-us'
+title = 'Derek Zhang'
+
+[module]
+[[module.imports]]
+  path = 'github.com/LordMathis/hugo-theme-nightfall'
+
+[params]
+user = ""
+hostname = "derekzha.ng"
+
+  [params.author]
+    name = "Derek Zhang"
+    email = "me@derekzha.ng"
+
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/ddyzhang"
+
+[[params.social]]
+key = 1
+name = "bluesky"
+url = "https://bsky.app/profile/derekzha.ng"
+
+[[params.social]]
+key = 2
+name = "email"
+url = "mailto:me@derekzha.ng"
+
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "/posts"
